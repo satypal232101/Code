@@ -18,7 +18,7 @@ public class Controller {
 
 
 	@GetMapping("/getdetail/{id}")
-	public String getDetail() {
+	public String getDetailById() {
 		return "webcome :::";
 
 	}
