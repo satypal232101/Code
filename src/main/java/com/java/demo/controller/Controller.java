@@ -15,7 +15,7 @@ public class Controller {
 	@GetMapping("/getemployee")
 	public String getEmployee() {
 		return "getEmployee :::";
-
+	}
 
 	@GetMapping("/getdetail/{id}")
 	public String getDetailById() {
