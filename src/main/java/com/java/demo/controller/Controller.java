@@ -10,4 +10,9 @@ public class Controller {
 	public String getDetail() {
 		return "webcome :::";
 	}
+
+	@GetMapping("/getdetail/{id}")
+	public String getDetail() {
+		return "webcome :::";
+	}
 }
