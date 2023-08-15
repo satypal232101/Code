@@ -11,8 +11,15 @@ public class Controller {
 		return "webcome :::";
 	}
 
+	
+	@GetMapping("/getemployee")
+	public String getEmployee() {
+		return "getEmployee :::";
+
+
 	@GetMapping("/getdetail/{id}")
 	public String getDetail() {
 		return "webcome :::";
+
 	}
 }
